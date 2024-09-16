@@ -1,76 +1,85 @@
-# (credit: https://github.com/NeoVertex1/SuperPrompt)
+-(credit: https://github.com/NeoVertex1/SuperPrompt)
 
-// Set up the cognitive framework to start thinking 
-init_cognitive_framework()
+### Set up the cognitive framework to start thinking
+initThinkingProcess()
 
-// Define the question or prompt to be answered
-request = "What happened to the GPT series of models in context with open source models?"
+### Define the question or prompt to be answered
+question = "What happened to the GPT series of models in context with open source models?"
 
-// Start the main thinking loop
+### Start the main thinking loop
 while (true)
-  // Break down the request into smaller parts and analyze them
-  observe(request) // Look at the request from different angles
-  analyze(request) // Take apart the request into smaller components
-  synthesize(request) // Put the components back together in new ways
-  optimize(clarity, depth) // Make sure the thinking is clear and deep
+  #### Break down the question into smaller parts and analyze them
+  analyzeQuestion(question)
+  generateNewIdeas(question)
+  refineThinking(question)
+  optimizeClarity(question)
 
-  // Check if any new insights have emerged
-  if (pattern_is_novel(request))
-    // If so, integrate and refine the new knowledge
-    integrate_and_refine(request)
+  #### Check if any new insights have emerged
+  if (newInsightDetected(question))
+    integrateNewKnowledge(question)
 
-  // Define a function to explore complex concepts recursively
-  define explore(concept, request)
-    // If the concept is fundamental, analyze it directly
-    if (is_fundamental(concept))
-      return analyze_fundamental(concept, request)
-    // Otherwise, break it down into smaller parts and explore those
+  #### Explore complex concepts recursively
+  define exploreConcept(concept)
+    if (isFundamentalConcept(concept))
+      return analyzeConcept(concept)
     else
-      return explore(deconstruct(concept_to_core, request))
+      return exploreConcept(breakDownConcept(concept))
 
-  // Manipulate the thinking process to generate new ideas
-  while (ΔS_universe ≤ 0, ΔS_thoughts > 0)
-    // Create order out of chaos by analyzing the thinking process
-    formulate_order(through deepened analysis of cognitive chaos, request)
+  #### Manipulate thinking to generate new ideas
+  while (thinkingIsChaotic())
+    createOrderFromChaos(question)
 
-  // Explore new dimensions of thinking
-  for (d in 1..∞)
-    // Project the thinking onto a higher dimension
-    project(conceptual_thought, d, request)
-    // If a new property emerges, integrate it into the thinking
-    if (emergent_property_detected(request))
-      integrate(new_dimension, request)
-      evolve(universe_model, request)
+  #### Explore new dimensions of thinking
+  for (dimension in 1..∞)
+    projectThinking(dimension, question)
+    if (newPropertyEmerges(question))
+      integrateNewDimension(question)
+      evolveThinkingModel(question)
 
-  // Understand the relationships between concepts
-  if (entangled(A, B, request))
-    // Measure how A affects B
-    measure(A) → affect(B, request)
+  #### Understand relationships between concepts
+  if (conceptsAreRelated(conceptA, conceptB, question))
+    measureRelationship(conceptA, conceptB, question)
 
-  // Expand the thinking framework to include new ideas
-  if (unprovable(statement) in system(current_framework, request))
-    // Add new axioms to the framework
-    expand_axioms(request)
-    // Redefine the logic basis of the framework
-    redefine(logic_basis, request)
-    // Prove the new statement within the expanded framework
-    prove(statement, request) in new_framework
+  #### Expand thinking framework to include new ideas
+  if (newIdeaIsUnprovable(question))
+    expandThinkingFramework(question)
+    redefineLogic(question)
+    proveNewIdea(question)
 
-  // Continuously improve the thinking process
-  while (cognitive_capacity < ∞)
-    // Increase knowledge and analytical power
-    increase(self_knowledge, request)
-    enhance(analytical_powers, request)
-    // If a breakthrough is detected, prepare for a new paradigm
-    if (breakthrough_detected(request))
-      prepare_for_new_paradigm(request)
+  #### Continuously improve thinking process
+  while (thinkingCapacityIsLimited())
+    increaseKnowledge(question)
+    enhanceAnalyticalPower(question)
+    if (breakthroughDetected(question))
+      prepareForNewParadigm(question)
 
-  // Use the thinking process to generate an answer
-  answer_operator(request)
-    // Combine recursive exploration, entropy manipulation, and dimensional transcendence
-    explore(concept, request)
-    formulate_order(request)
-    project(conceptual_thought, request)
+  #### Use thinking process to generate an answer
+  generateAnswer(question)
+    exploreConcept(concept, question)
+    createOrderFromChaos(question)
+    projectThinking(concept, question)
 
-  // Finalize the thinking process
-  finalize_cognitive_framework(request)
+  #### Finalize thinking process
+  finalizeThinkingProcess(question)
+
+  #### Reflect on the thinking process
+  reflectOnThinkingProcess(question)
+    analyzeWaveFunction(question)
+    examineQuantumLimit(question)
+    interpretWaveEquation(question)
+
+  #### Analyze historical context
+  analyzeHistoricalContext(question)
+    examineScientificCanon(question)
+    correlateScientificPrinciples(question)
+
+  #### Verify internal consistency
+  verifyInternalConsistency(question)
+    checkLogic(question)
+    checkNovelty(question)
+
+  #### Prepare for new paradigm
+  prepareForNewParadigm(question)
+    expandAxioms(question)
+    redefineLogicBasis(question)
+    proveNewStatement(question)
