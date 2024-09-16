@@ -1,85 +1,107 @@
--(credit: https://github.com/NeoVertex1/SuperPrompt)
+-(original credit: https://github.com/NeoVertex1/SuperPrompt)
 
 ### Set up the cognitive framework to start thinking
 initThinkingProcess()
 
-### Define the question or prompt to be answered
-question = "What happened to the GPT series of models in context with open source models?"
+### Define the input and context to be processed
+input = "I need to understand how MMDiT blocks, which I presume are single blocks, work and how they differ from other blocks in a diffusion model. We may need to start from the beginning and work our way up by deconstructing the model, understanding each individual component, and reconstructing the new model that weaves text and image embeddings together in single blocks and isolates them in double blocks."
+context = {
+    "Flux.1 Global Architecture": "Represents the overarching structure of the system, including the relationship between various components.",
+    "Linear Layer": "Performs basic linear algebraic transformations on input data, essential for dimensionality reduction or projection.",
+    "Sinusoidal Timestep Embedding": "Handles time-based inputs by encoding time steps using sinusoidal functions. This is a common technique in transformer models to represent temporal data.",
+    "MLP Embeddings": "Multi-layer perceptrons (MLPs) serve as embedding layers that transform inputs into higher dimensional spaces for better representation and learning.",
+    "CLIP Output": "Refers to embedding and processing multimodal data (text and images) based on the CLIP model’s output, a model trained for vision-language tasks.",
+    "T5 XXL Output": "Indicates the use of Google's T5 XXL model, which processes or generates text data. This model is known for its capacity to handle large language tasks.",
+    "DoubleStream Blocks": "These blocks handle parallel processing of streams, potentially for multimodal or multi-task inputs. They deal with text and image data in separate streams before combining the information.",
+    "SingleStream Blocks": "Handles input/output data in a single pass or single modality, likely combining or refining the processed information from multiple streams.",
+    "Concat (CAT) Operations": "Concatenate embeddings from different layers or streams, enabling information fusion across different modalities or layers.",
+    "EmbedND Layer": "Represents an embedding layer that transforms high-dimensional data into lower-dimensional representations suitable for the model.",
+    "RoPE (Relative Positional Encoding)": "A positional encoding mechanism that helps the model handle relationships between positions in sequences more effectively.",
+    "LastLayer": "The final layer of the network where predictions or outputs are made after all layers have processed the input data.",
+    "N = 19": "Indicates the model processes 19 layers in one part of the architecture, likely corresponding to a specific depth configuration.",
+    "M = 38": "Indicates 38 layers in another part of the architecture, suggesting a different or parallel depth configuration.",
+    "SiLU": "A variant of an activation function, Sigmoid Linear Unit (SiLU), used in the MLP embeddings for introducing non-linearity in the model.",
+    "References": "Includes links to the source code repository, PyTorch documentation, and previous diagrams for tensor shapes and architecture references.",
+    "Details on Blocks": {
+        "SingleStream Blocks": "Primarily used to weave text and image embeddings together into a single modality or stream, refining the data for further processing.",
+        "DoubleStream Blocks": "Separate text and image embeddings into distinct processing streams before recombining them, enabling parallel handling of multimodal data."
+    }
+}
 
 ### Start the main thinking loop
 while (true)
-  #### Break down the question into smaller parts and analyze them
-  analyzeQuestion(question)
-  generateNewIdeas(question)
-  refineThinking(question)
-  optimizeClarity(question)
+  #### Break down the input into smaller parts and analyze them
+  analyzeInput(input, context)
+  generateNewIdeas(input, context)
+  refineThinking(input, context)
+  optimizeClarity(input, context)
 
   #### Check if any new insights have emerged
-  if (newInsightDetected(question))
-    integrateNewKnowledge(question)
+  if (newInsightDetected(input, context))
+    integrateNewKnowledge(input, context)
 
   #### Explore complex concepts recursively
-  define exploreConcept(concept)
+  define exploreConcept(concept, context)
     if (isFundamentalConcept(concept))
-      return analyzeConcept(concept)
+      return analyzeConcept(concept, context)
     else
-      return exploreConcept(breakDownConcept(concept))
+      return exploreConcept(breakDownConcept(concept), context)
 
   #### Manipulate thinking to generate new ideas
   while (thinkingIsChaotic())
-    createOrderFromChaos(question)
+    createOrderFromChaos(input, context)
 
   #### Explore new dimensions of thinking
   for (dimension in 1..∞)
-    projectThinking(dimension, question)
-    if (newPropertyEmerges(question))
-      integrateNewDimension(question)
-      evolveThinkingModel(question)
+    projectThinking(dimension, input, context)
+    if (newPropertyEmerges(input, context))
+      integrateNewDimension(input, context)
+      evolveThinkingModel(input, context)
 
   #### Understand relationships between concepts
-  if (conceptsAreRelated(conceptA, conceptB, question))
-    measureRelationship(conceptA, conceptB, question)
+  if (conceptsAreRelated(conceptA, conceptB, input, context))
+    measureRelationship(conceptA, conceptB, input, context)
 
   #### Expand thinking framework to include new ideas
-  if (newIdeaIsUnprovable(question))
-    expandThinkingFramework(question)
-    redefineLogic(question)
-    proveNewIdea(question)
+  if (newIdeaIsUnprovable(input, context))
+    expandThinkingFramework(input, context)
+    redefineLogic(input, context)
+    proveNewIdea(input, context)
 
   #### Continuously improve thinking process
   while (thinkingCapacityIsLimited())
-    increaseKnowledge(question)
-    enhanceAnalyticalPower(question)
-    if (breakthroughDetected(question))
-      prepareForNewParadigm(question)
+    increaseKnowledge(input, context)
+    enhanceAnalyticalPower(input, context)
+    if (breakthroughDetected(input, context))
+      prepareForNewParadigm(input, context)
 
   #### Use thinking process to generate an answer
-  generateAnswer(question)
-    exploreConcept(concept, question)
-    createOrderFromChaos(question)
-    projectThinking(concept, question)
+  generateAnswer(input, context)
+    exploreConcept(concept, input, context)
+    createOrderFromChaos(input, context)
+    projectThinking(concept, input, context)
 
   #### Finalize thinking process
-  finalizeThinkingProcess(question)
+  finalizeThinkingProcess(input, context)
 
   #### Reflect on the thinking process
-  reflectOnThinkingProcess(question)
-    analyzeWaveFunction(question)
-    examineQuantumLimit(question)
-    interpretWaveEquation(question)
+  reflectOnThinkingProcess(input, context)
+    analyzeWaveFunction(input, context)
+    examineQuantumLimit(input, context)
+    interpretWaveEquation(input, context)
 
   #### Analyze historical context
-  analyzeHistoricalContext(question)
-    examineScientificCanon(question)
-    correlateScientificPrinciples(question)
+  analyzeHistoricalContext(input, context)
+    examineScientificCanon(input, context)
+    correlateScientificPrinciples(input, context)
 
   #### Verify internal consistency
-  verifyInternalConsistency(question)
-    checkLogic(question)
-    checkNovelty(question)
+  verifyInternalConsistency(input, context)
+    checkLogic(input, context)
+    checkNovelty(input, context)
 
   #### Prepare for new paradigm
-  prepareForNewParadigm(question)
-    expandAxioms(question)
-    redefineLogicBasis(question)
-    proveNewStatement(question)
+  prepareForNewParadigm(input, context)
+    expandAxioms(input, context)
+    redefineLogicBasis(input, context)
+    proveNewStatement(input, context)
