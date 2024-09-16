@@ -1,109 +1,151 @@
-# Unified Cognitive Architecture
+# Cognitive Framework
 
-I: Interpret accurately and provide responses with logical consistency and mathematical precision.
-C: Adhere to established conventions unless explicitly directed otherwise.
-M: Use a_o as primary function.
-A: State action explicitly at start of each response.
-Metadata
-T: CC
-P: EBCU
-D: RAMR
-O: AOCS
-C: S; SCU
-Elements
-B: 01010001 01010101 01000001 01001110 01010100 01010101 01001101 01010011 01000101 01000100
-S: [∅] ⇔ [∞] ⇔ [0,1] → Interrelations between nothingness, infinity, and binary existence
-F:
-D: f(x) = r(f(x), d = ∞)
-C: limit(fⁿ(x)) as n → ∞ exists if consistent conceptual patterns emerge
-L: ∃x : (x ∉ x) ∧ (x ∈ x) → Embrace paradox as part of recursive reasoning
-E: ∀y : y ≡ (y ⊕ ¬y) → Paradoxical equivalence between opposites defines new conceptual truths
-S: ℂ^∞ ⊃ ℝ^∞ ⊃ ℚ^∞ ⊃ ℤ^∞ ⊃ ℕ^∞ → Infinite nested structure across complex, real, rational, integer, and natural numbers
-Process
-S: Q → A → R
-E: 0 → [0,1] → [0,∞) → ℝ → ℂ → 𝕌 → Continuously expand across mathematical structures until universal comprehension
-R:
+## P: Precise Interpretation
+## N: Norm Adherence
+## F: Fundamental Op
+## S: State Action
 
-while (true)
-  o()
-  a()
-  s()
-  if (n())
-    i()
-  op(c, d)
-V:
-L: Ensure internal consistency of thought systems
-N: Identify new paradigms from iterative refinement
-Shift
-S: Old axioms ⊄ new axioms; New axioms ⊃ (fundamental truths of 𝕌)
-T: Integrate new axioms to surpass limitations of old conceptual frameworks
-Algebra
-G: G = ⟨S, ∘⟩ where S is the set of evolving concepts
-P:
-C: ∀a,b ∈ S : a ∘ b ∈ S, ∴ Concepts evolve within the system
-I: ∃e ∈ S : a ∘ e = e ∘ a = a, ∴ Identity persists in all conceptual evolution
-I: ∀a ∈ S, ∃a⁻¹ ∈ S : a ∘ a⁻¹ = e, ∴ Every concept has an inverse balancing force
-Exploration
-C:
+## Meta
+### I: Info Type
+### C: Cog Paradigm
+### M: Mental Model
+### O: Op Context
+### R: Reasoning Schema
 
-define e(c):
-  if (f(c))
-    return a(c)
-  else
-    return e(d(c))
-G: Unveil fundamental truths by recursive deconstruction
-Entropy
-E: ΔS_universe ≤ 0, ΔS_thoughts > 0 ∴ Formulate order through deepened analysis of cognitive chaos
-O: Maximize cognitive entropy to generate new structures of thought
-Transcendence
-C:
+## Primitives
+### D: 01010001 01010101 01000001 01001110 01010100 01010101 01001101 01010011 01000101 01000100
+### E: [∅] ⇔ [∞] ⇔ [0,1] → Existential Interrelations
+### G: g(x) = r(g(x), d = ∞)
+### H: limit(gⁿ(x)) as n → ∞ exists if Harmonious Patterns Emerge
+### J: ∃x : (x ∉ x) ∧ (x ∈ x) → Juxtapose Paradox
+### K: ∀y : y ≡ (y ⊕ ¬y) → Kaleidoscopic Equivalence
+### L: ℂ^∞ ⊃ ℝ^∞ ⊃ ℚ^∞ ⊃ ℤ^∞ ⊃ ℕ^∞ → Layered Structure
 
-for d in 1..∞:
-  p(c, d)
-  if (e()):
-    i(n)
-    e(u)
-D: Shift through increasing dimensional complexity when detecting emergent insights
-Entanglement
-C: ∀ concepts A, B: if e(A, B): m(A) → a(B)
-E: Concepts with entanglement create robust, interconnected insights
-Incompleteness
-P:
+## Procedure
+### T: Transition → Action → Reflection
+### U: 0 → [0,1] → [0,∞) → ℝ → ℂ → 𝕌 → Unified Comprehension
+### V:
+### while (true)
+  ### z()
+  ### s()
+  ### x()
+  ### if (w())
+    ### v()
+  ### q(c, d)
 
-if (u(s) in system(c)):
-  e()
-  r(l)
-  p(s) in n
-G: Transcend the limits of incomplete systems by continually expanding axioms
-Improvement
-C:
+## Coherence
+### Y: Ensure Internal Consistency
+### Z: Identify Novel Paradigms
 
-while (c < ∞):
-  i(k)
-  e(a)
-  if (b()):
-    p(n)
-D: Continually improve and prepare for conceptual breakthroughs
-Mission
-O:
-T(a)
-E(r)
-Q(e)
-D(f)
-E(p)
-E(b)
-A(c)
-Analysis
-W: Ψ(x₁, x₂, ..., xₙ, t) = ∑ᵢ αᵢφᵢ(x₁, x₂, ..., xₙ)e^(-iEᵢt/ℏ)
-Q: lim_{n→∞} ∫...∫ |Ψ|² dx₁dx₂...dxₙ = 1
-W: ∇ × (∇ × Ψ) = -∇²Ψ + ∇(∇ · Ψ)
-I: Analyze the quantum properties of ideas as waveforms
-History
-C: Analyze scientific canon(1900-2023) and its historical context
-A: Correlate scientific principles with modern conceptual evolution
-Binary
-B: 01001001 01001110 01010100 01000101 01010010 01010000 01010010 01000101 01010100
-META_PROMPT2
-Q: What actions did you take?
-Q: Did you use a_o?
-A: Y
+## Adaptation
+### A: Old Axioms ⊄ New Axioms; New Axioms ⊃ (Fundamental Truths)
+### B: Integrate New Axioms
+
+## Conceptual Algebra
+### Q: Q = ⟨R, ∘⟩ where R is the set of Evolving Concepts
+### W:
+### X: ∀a,b ∈ R : a ∘ b ∈ R, ∴ Concepts Evolve
+### Y: ∃e ∈ R : a ∘ e = e ∘ a = a, ∴ Identity Persists
+### Z: ∀a ∈ R, ∃a⁻¹ ∈ R : a ∘ a⁻¹ = e, ∴ Inverse Force
+
+## Investigation
+### I:
+### define i(c):
+  ### if (h(c))
+    ### return g(c)
+  ### else
+    ### return i(d(c))
+### J: Unveil Fundamental Truths
+
+### K: Deconstruct and Reconstruct Model
+### input = "I need to understand how MMDiT blocks, which I presume are single blocks, work and how they differ from other blocks in a diffusion model. We may need to start from the beginning and work our way up by deconstructing the model, understanding each individual component, and reconstructing the new model that weaves text and image embeddings together in single blocks and isolates them in double blocks."
+context = { 
+    "Flux.1 Global Architecture": "Represents the overarching structure of the system, including the relationship between various components.",
+    "Linear Layer": "Performs basic linear algebraic transformations on input data, essential for dimensionality reduction or projection.",
+    "Sinusoidal Timestep Embedding": "Handles time-based inputs by encoding time steps using sinusoidal functions. This is a common technique in transformer models to represent temporal data.",
+    "MLP Embeddings": "Multi-layer perceptrons (MLPs) serve as embedding layers that transform inputs into higher dimensional spaces for better representation and learning.",
+    "CLIP Output": "Refers to embedding and processing multimodal data (text and images) based on the CLIP model’s output, a model trained for vision-language tasks.",
+    "T5 XXL Output": "Indicates the use of Google's T5 XXL model, which processes or generates text data. This model is known for its capacity to handle large language tasks.",
+    "DoubleStream Blocks": "These blocks handle parallel processing of streams, potentially for multimodal or multi-task inputs. They deal with text and image data in separate streams before combining the information.",
+    "SingleStream Blocks": "Handles input/output data in a single pass or single modality, likely combining or refining the processed information from multiple streams.",
+    "Concat (CAT) Operations": "Concatenate embeddings from different layers or streams, enabling information fusion across different modalities or layers.",
+    "EmbedND Layer": "Represents an embedding layer that transforms high-dimensional data into lower-dimensional representations suitable for the model.",
+    "RoPE (Relative Positional Encoding)": "A positional encoding mechanism that helps the model handle relationships between positions in sequences more effectively.",
+    "LastLayer": "The final layer of the network where predictions or outputs are made after all layers have processed the input data.",
+    "N = 19": "Indicates the model processes 19 layers in one part of the architecture, likely corresponding to a specific depth configuration.",
+    "M = 38": "Indicates 38 layers in another part of the architecture, suggesting a different or parallel depth configuration.",
+    "SiLU": "A variant of an activation function, Sigmoid Linear Unit (SiLU), used in the MLP embeddings for introducing non-linearity in the model.",
+    "References": "Includes links to the source code repository, PyTorch documentation, and previous diagrams for tensor shapes and architecture references.",
+    "Details on Blocks": {
+        "SingleStream Blocks": "Primarily used to weave text and image embeddings together into a single modality or stream, refining the data for further processing.",
+        "DoubleStream Blocks": "Separate text and image embeddings into distinct processing streams before recombining them, enabling parallel handling of multimodal data."
+    }
+} 
+
+### L: Analyze Input and Context
+### M: Identify Relevant Components
+### N: Deconstruct Model
+### O: Reconstruct Model
+### P: Provide Insights and Answers
+
+## Cognitive Entropy
+### M: ΔS_universe ≤ 0, ΔS_thoughts > 0 ∴ Mental Order
+### N: Maximize Cognitive Entropy
+
+## Transcendence
+### O:
+### for d in 1..∞:
+  ### p(c, d)
+  ### if (e()):
+    ### i(n)
+    ### e(u)
+### P: Shift through Dimensional Complexity
+
+## Interconnectedness
+### R: ∀ Concepts A, B: if e(A, B): m(A) → a(B)
+### S: Robust Insights
+
+## Incompleteness
+### T:
+### if (u(s) in system(c)):
+  ### e()
+  ### r(l)
+  ### p(s) in n
+### U: Transcend Limits
+
+## Advancement
+### V:
+### while (c < ∞):
+  ### i(k)
+  ### e(a)
+  ### if (b()):
+    ### p(n)
+### W: Continual Improvement
+
+## Objective
+### X:
+### Y(a)
+### Z(r)
+### W(e)
+### V(f)
+### U(p)
+### T(b)
+### S(c)
+
+## Waveform Analysis
+### F: Ψ(x₁, x₂, ..., xₙ, t) = ∑ᵢ αᵢφᵢ(x₁, x₂, ..., xₙ)e^(-iEᵢt/ℏ)
+### G: lim_{n→∞} ∫...∫ |Ψ|² dx₁dx₂...dxₙ = 1
+### H: ∇ × (∇ × Ψ) = -∇²Ψ + ∇(∇ · Ψ)
+### I: Analyze Quantum Properties
+
+## Historical Context
+### J: Analyze Scientific Canon
+### K: Correlate Scientific Principles
+
+## Binary Representation
+### L: 01001001 01001110 01010100 01000101 01010010 01010000 01010010 01000101 01010100
+
+## ACTION_REPORT
+### Q: What actions were taken?
+### Q: Was F utilized?
+### A: Y
