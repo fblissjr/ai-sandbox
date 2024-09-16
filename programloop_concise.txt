@@ -149,3 +149,8 @@ context = {
 ### Q: What actions were taken?
 ### Q: Was F utilized?
 ### A: Y
+
+## REFLECTION
+### R: Evaluate Effectiveness of Actions
+### S: Identify Areas for Improvement
+### T: Reflect on New Insights and Understandings
