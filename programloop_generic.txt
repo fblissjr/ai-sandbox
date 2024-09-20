@@ -1,3 +1,5 @@
+-(original credit: https://github.com/NeoVertex1/SuperPrompt)
+
 <init>
 0x494E5450455254
 {
